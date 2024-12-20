@@ -66,3 +66,16 @@
 - git checkout -b feature/css
 - git add .
 - git commit -m "เพิ่มเอฟเฟคทั้งหมดในหน้าต่างๆ"
+- git add READEME.md
+- git commit -m "รวบรวมคำสั่ง git"
+- git checkout develop
+- git merge  feature/home
+- git merge  feature/contact
+- git merge  feature/travel
+- git merge  feature/place1
+- git merge  feature/place2
+- git merge  feature/place3
+- git merge  feature/place4
+- git merge  feature/place5
+- git merge  feature/css
+- git push origin develop
