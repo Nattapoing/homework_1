@@ -68,6 +68,8 @@
 - git commit -m "เพิ่มเอฟเฟคทั้งหมดในหน้าต่างๆ"
 - git add READEME.md
 - git commit -m "รวบรวมคำสั่ง git"
+- git add README.md
+- git commit -m "รวบรวมคำสั่ง git2"
 - git checkout develop
 - git merge  feature/home
 - git merge  feature/contact
