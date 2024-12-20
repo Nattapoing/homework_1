@@ -1,1 +1,68 @@
 # homework_1
+# รวบรวมคำสั่ง git ทั้งหมด
+- git checkout -b develop
+- git add .
+- git commit -m "โครงสร้างโปรเจคเริ่มต้น"
+- git checkout -b feature/home
+- git add .
+- git commit -m "index เบื้องต้น"
+- git add .
+- git commit -m "เพิ่ม footer index"
+- git add .
+- git commit -m "เพิ่ม รูป index"
+- git add .
+- git commit -m "เพิ่มประวัติ index"
+- git checkout -b feature/contact
+- git add .
+- git commit -m "เพิ่ม contact เบื้องต้น"
+- git add .
+- git commit -m "เพิ่ม contact ฟอร์ม"
+- git add .
+- git commit -m "เพิ่ม contact footer"
+- git add .
+- git commit -m "เพิ่ม contact ลูกเล่น"
+- git checkout -b feature/travel
+- git add .
+- git commit -m "เพิ่ม travel เบื้องต้น"
+- git add .
+- git commit -m "เพิ่ม travel หัวข้อ"
+- git add .
+- git commit -m "เพิ่ม travel เที่ยว1"
+- git add .
+- git commit -m "เพิ่ม travel เที่ยว2"
+- git add .
+- git commit -m "เพิ่ม travel เที่ยว3"
+- git add .
+- git commit -m "เพิ่ม travel เที่ยว4"
+- git add .
+- git commit -m "เพิ่ม travel เที่ยว5"
+- git add .
+- git commit -m "เพิ่ม travel footer"
+- git checkout -b feature/place1
+- git add .
+- git commit -m "เพิ่ม place 1"
+- git add .
+- git commit -m "เพิ่ม place 1ข้อมูล"
+- git checkout -b feature/place2
+- git add .
+- git commit -m "เพิ่ม place 2"
+- git add .
+- git commit -m "เพิ่ม place 2ข้อมูล"
+- git checkout -b feature/place3
+- git add .
+- git commit -m "เพิ่ม place 3"
+- git add .
+- git commit -m "เพิ่ม place 3ข้อมูล"
+- git checkout -b feature/place4
+- git add .
+- git commit -m "เพิ่ม place 4"
+- git add .
+- git commit -m "เพิ่ม place 4ข้อมูล"
+- git checkout -b feature/place5
+- git add .
+- git commit -m "เพิ่ม place 5"
+- git add .
+- git commit -m "เพิ่ม place 5ข้อมูล"
+- git checkout -b feature/css
+- git add .
+- git commit -m "เพิ่มเอฟเฟคทั้งหมดในหน้าต่างๆ"
