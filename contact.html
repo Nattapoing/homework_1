@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ติดต่อเรา - ท่องเที่ยวฉะเชิงเทรา</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <h1>การท่องเที่ยวฉะเชิงเทรา - ติดต่อเรา</h1>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="travel.html">สถานที่ท่องเที่ยว</a></li>
+      <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+    <section class="contact">
+      <h2>ติดต่อเรา</h2>
+      <form id="contactForm">
+        <label for="name">ชื่อ-นามสกุล: <span class="required">*</span></label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">อีเมล: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">เบอร์โทรศัพท์:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="message">ข้อความ: <span class="required">*</span></label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">ส่งข้อความ</button>
+      </form> 
+      <div id="statusMessage" class="status-message"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; การท่องเที่ยวฉะเชิงเทรา</p>
+  </footer>
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      const form = event.target;
+      const statusMessage = document.getElementById('statusMessage');
+      statusMessage.textContent = 'ส่งข้อความเรียบร้อย';
+      statusMessage.style.color = 'green'; 
+      form.reset();
+    });
+  </script>
+  </body>
+  </html>
